@@ -1,27 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    hello world! we are software developers
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Dr. Norman Borlaug</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <!--
+<body>
 
-    Hello Camper!
+  <main id="main"></main>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+  <script>
+    const title = document.createElement('title');
+    title.id = "title"
+    title.textContent = "We are Developers"
 
-    - The freeCodeCamp Team
+    const figure = document.createElement('div');
+    figure.id="img-div"
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+    const image1 = document.createElement('img');
+    image1.id="image"
+
+
+    const imgcaption = document.createElement("div")
+    imgcaption.id="img-caption"
+    imgcaption.textContent="this is an image"
+
+    const divinfo = document.createElement("div")
+    divinfo.id="tribute-info"
+
+    divinfo.textContent="This is a tribute"
+
+    const tributelink = document.createElement("a")
+    tributelink.id="tribute-link"
+    tributelink.href="www.google.com"
+    tributelink.target = "_blank"
+
+    main.appendChild(figure)
+    figure.appendChild(image1)
+    figure.appendChild(imgcaption)
+    main.appendChild(divinfo)
+    main.appendChild(tributelink)
+
+  </script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dr. Norman Borlaug</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main id="main"></main>
+
+  <script>
+    const title = document.createElement('title');
+    title.id = "title"
+    title.textContent = "We are Developers"
+
+    const figure = document.createElement('div');
+    figure.id="img-div"
+
+    const image1 = document.createElement('img');
+    image1.id="image"
+
+
+    const imgcaption = document.createElement("div")
+    imgcaption.id="img-caption"
+    imgcaption.textContent="this is an image"
+
+    const divinfo = document.createElement("div")
+    divinfo.id="tribute-info"
+
+    divinfo.textContent="This is a tribute"
+
+    const tributelink = document.createElement("a")
+    tributelink.id="tribute-link"
+    tributelink.href="www.google.com"
+    tributelink.target = "_blank"
+
+    main.appendChild(figure)
+    figure.appendChild(image1)
+    figure.appendChild(imgcaption)
+    main.appendChild(divinfo)
+    main.appendChild(tributelink)
+
+  </script>
+</body>
+
 </html>
